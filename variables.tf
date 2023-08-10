@@ -24,7 +24,7 @@ variable "state_bucket_key" {
 }
 
 variable "region" {
-    description = "AWS region"
+    default = "us-east-1"
 }
 
 variable "access_key" {
